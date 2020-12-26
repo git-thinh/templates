@@ -1,0 +1,8 @@
+﻿
+/* [ golfviewdanang.ibds.co ] */
+
+body.__golfviewdanang div#uhchatboz,
+body.__golfviewdanang div.pop-fix,
+body.__golfviewdanang div.popup-chinhft.active {
+    display: none !important;
+}
