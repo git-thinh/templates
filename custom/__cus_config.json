@@ -1,0 +1,33 @@
+{
+  "golfviewdanang.ibds.co": {
+    "replaces": [
+      {
+        "type": "phone",
+        "valid": {
+          "tag": "a",
+          "attr": "href",
+          "value": "tel:0961057979"
+        },
+        "value": "094 800 3456"
+      }
+    ],
+    "dir": "golfviewdanang.ibds.co",
+    "login": false
+  },
+  "golfview-chudautu.ibds.co": {
+    "dir": "golfviewdanang.ibds.co",
+    "login": false
+  },
+  "thegolfview.ibds.co": {
+    "dir": "thegolfview.info",
+    "login": false
+  },
+  "golfviewluxurydanang.ibds.co": {
+    "dir": "golfviewluxurydanang.com",
+    "login": false
+  },
+  "golfview-danang.ibds.co": {
+    "dir": "golfviewdanang.info.vn",
+    "login": false
+  }
+}

@@ -2,6 +2,10 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     var css__ = location.hostname;
     if (css__.startsWith('dev-')) css__ = css__.substr(4);
+    var __SITE = {};
+    if (CONFIG__ && CONFIG__.hasOwnProperty(css__)) __SITE = CONFIG__[css__];
+        //console.log(CONFIG__);
+        console.log(__SITE);
     if (css__.endsWith('.ibds.co')) css__ = '__' + css__.substr(0, css__.length - 8);
     else css__ = '';
     if (css__.length > 0) {
