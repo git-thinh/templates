@@ -17,6 +17,12 @@
 <!-- google webfont font replacement -->
 
 			<script type='text/javascript'>
+
+				fetch('https://raw.githubusercontent.com/maitron1niemtin/demo/master/dirs/file2.txt').then(r => r.text()).then(function (s) {
+					console.log('??????????????????????? = ', s);
+				});
+
+
 			if(!document.cookie.match(/aviaPrivacyGoogleWebfontsDisabled/)){
 				(function() {
 					var f = document.createElement('link');

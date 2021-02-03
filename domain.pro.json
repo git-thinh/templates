@@ -1,0 +1,60 @@
+{
+  "port": 80,
+  "url": {
+    "login": "http://login.iot.vn",
+    "api": "http://api.iot.vn",
+    "notify_socket": "ws://api.iot.vn"
+  },
+  "404": {
+    "dir": "404",
+    "login": false
+  },
+  "login": {
+    "dir": "login",
+    "login": false
+  },
+  "localhost": {
+    "dir": "coming-soon",
+    "login": false
+  },
+  "cloud.iot.vn": {
+    "dir": "cloud",
+    "login": true
+  },
+  "task.iot.vn": {
+    "dir": "task",
+    "login": true
+  },
+  "theme.iot.vn": {
+    "dir": "theme",
+    "login": false
+  },
+  "test.iot.vn": {
+    "dir": "site-1",
+    "login": false
+  },
+  "kit.iot.vn": {
+    "dir": "kit",
+    "login": false
+  },
+  "thinh.iot.vn": {
+    "dir": "thinh",
+    "login": false
+  },
+  "cuong-dola.iot.vn": {
+    "dir": "cuong",
+    "login": false
+  },
+  "baovethienphong.com": {
+    "dir": "baovethienphong.com",
+    "login": false
+  },
+  "long.iot.vn": {
+    "dir": "long",
+    "login": false
+  },
+  "www.baovethienphong.com": {
+    "dir": "baovethienphong.com",
+    "login": false
+  }
+}
